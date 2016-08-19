@@ -22,14 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self configMapBoxView];
-    [self configChildView];
+//    [self configMapBoxView];
+//    [self configChildView];
 //    [self crashDemo];
 }
 - (void)crashDemo {
-    NSLog(@"self---------------------------%@",self);
+    NSLog(@"self%@",self);
     NSArray * array = @[@"1"];
-    NSLog(@"array---------------------------%@",array[1]);
+    NSLog(@"array%@",array[1]);
 }
 
 - (void)configChildView {
@@ -66,6 +66,6 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"self---------------------------%@",self);
+    NSLog(@"self%@",self);
 }
 @end

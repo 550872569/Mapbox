@@ -15,5 +15,5 @@ typedef void(^ErrorBlock)(id error);
 
 #define kMapBoxToken @"pk.eyJ1IjoiNTUwODcyNTY5IiwiYSI6ImNpcnJ4MmFtbjBodjBmYW02b2xta3Q1ZDIifQ.x-c93VEl_KMc1NcJbfquNA"
 #define kBuglyAppID @"6e4f031b6e"
-
+#define kRCAppKey @"x4vkb1qpvegzk"
 #endif /* StringMacros_h */

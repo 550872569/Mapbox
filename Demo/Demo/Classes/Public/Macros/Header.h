@@ -16,6 +16,7 @@
 #import "MBProgressHUD+NJ.h"
 #import "MJExtension.h"
 #import <Bugly/Bugly.h>
+#import <RongIMKit/RongIMKit.h>
 
 
 #import "MachaoTool.h"

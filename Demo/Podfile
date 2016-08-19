@@ -10,7 +10,7 @@ target 'Demo' do
 pod 'AFNetworking', '~> 3.0’  
 pod 'Masonry', '~> 0.6.4'
 pod 'MBProgressHUD', '~> 0.9.1'
-
+pod 'RongCloudIMKit'
   target 'DemoTests' do
     inherit! :search_paths
     # Pods for testing

@@ -21,15 +21,17 @@
     [self setCancel];
 //    [self configMapboxToken];
     [self configBugly];
+    [self configRCAppKey];
     return YES;
 }
-
+- (void)configRCAppKey {
+    [[RCIM sharedRCIM] initWithAppKey:kRCAppKey];
+}
 - (void)configBugly {
     [Bugly startWithAppId:kBuglyAppID];
 }
 - (void)configMapboxToken {
     [MGLAccountManager setAccessToken:kMapBoxToken];
-//    [MGLAccountManager setAccessToken:@"pk.eyJ1IjoiNTUwODcyNTY5IiwiYSI6ImNpcnJ4MmFtbjBodjBmYW02b2xta3Q1ZDIifQ.x-c93VEl_KMc1NcJbfquNA"];
 }
 /** 配置window + rootVC */
 - (void)configWindowAndRootVC {
@@ -42,29 +44,22 @@
 - (void)AFNetworkStatus{
     //1.创建网络监测者
     AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
-    /*枚举里面四个状态  分别对应 未知 无网络 数据 WiFi
-     typedef NS_ENUM(NSInteger, AFNetworkReachabilityStatus) {
-     AFNetworkReachabilityStatusUnknown          = -1,      未知
-     AFNetworkReachabilityStatusNotReachable     = 0,       无网络
-     AFNetworkReachabilityStatusReachableViaWWAN = 1,       蜂窝数据网络
-     AFNetworkReachabilityStatusReachableViaWiFi = 2,       WiFi
-     };
-     */
+    /*枚举里面四个状态  分别对应 未知 无网络 数据 WiFi */
     [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         //这里是监测到网络改变的block  可以写成switch方便
         //在里面可以随便写事件
         switch (status) {
             case AFNetworkReachabilityStatusUnknown:
-//                NSLog(@"yhp log -------------------未知网络状态");
+                NSLog(@"未知网络状态");
                 break;
             case AFNetworkReachabilityStatusNotReachable:
-//                NSLog(@"yhp log -------------------无网络");
+                NSLog(@"无网络");
                 break;
             case AFNetworkReachabilityStatusReachableViaWWAN:
-//                NSLog(@"yhp log -------------------蜂窝数据网");
+                NSLog(@"蜂窝数据网");
                 break;
             case AFNetworkReachabilityStatusReachableViaWiFi:
-//                NSLog(@"yhp log -------------------WiFi");
+                NSLog(@"WiFi");
                 break;
             default:
                 break;
@@ -90,20 +85,15 @@
     
     // AFSSLPinningModeCertificate 使用证书验证模式
     AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate];
-    
     // allowInvalidCertificates 是否允许无效证书（也就是自建的证书），默认为NO
     // 如果是需要验证自建证书，需要设置为YES
     securityPolicy.allowInvalidCertificates = YES;
-    
     //validatesDomainName 是否需要验证域名，默认为YES；
     //假如证书的域名与你请求的域名不一致，需把该项设置为NO；如设成NO的话，即服务器使用其他可信任机构颁发的证书，也可以建立连接，这个非常危险，建议打开。
     //置为NO，主要用于这种情况：客户端请求的是子域名，而证书上的是另外一个域名。因为SSL证书上的域名是独立的，假如证书上注册的域名是www.google.com，那么mail.google.com是无法验证通过的；当然，有钱可以注册通配符的域名*.google.com，但这个还是比较贵的。
     //如置为NO，建议自己添加对应域名的校验逻辑。
     securityPolicy.validatesDomainName = NO;
-    
-    
     securityPolicy.pinnedCertificates = @[certData];
-    
     return securityPolicy;
 }
 

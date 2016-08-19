@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B06FE0B1D6728FF004FDA7D /* YHPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06FDFD1D6728FF004FDA7D /* YHPBaseViewController.m */; };
+		1B06FE0C1D6728FF004FDA7D /* YHPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06FE001D6728FF004FDA7D /* YHPAccount.m */; };
+		1B06FE0D1D6728FF004FDA7D /* YHPAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06FE021D6728FF004FDA7D /* YHPAccountTool.m */; };
+		1B06FE0E1D6728FF004FDA7D /* YHPBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06FE041D6728FF004FDA7D /* YHPBaseViewModel.m */; };
+		1B06FE0F1D6728FF004FDA7D /* YHPGetPhoneReturnNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06FE061D6728FF004FDA7D /* YHPGetPhoneReturnNumber.m */; };
+		1B06FE101D6728FF004FDA7D /* YHPGuideAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06FE081D6728FF004FDA7D /* YHPGuideAccount.m */; };
 		1B47D3D71D60567E00544408 /* Mapbox.framework in Embed Binaries */ = {isa = PBXBuildFile; fileRef = 1B47D3D51D60567E00544408 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1BB1FC501D600D4D008D21E1 /* YHPMapBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1FC4F1D600D4D008D21E1 /* YHPMapBoxViewController.m */; };
 		1BFC27581D648C5000BAA5DA /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFC27571D648C5000BAA5DA /* Bugly.framework */; };
@@ -15,9 +21,6 @@
 		1BFC275E1D648CB300BAA5DA /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFC275D1D648CB300BAA5DA /* libz.1.1.3.tbd */; };
 		2BDE0DA98C2DA57A346E5A26 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA6321CB2B8FFAA9A34DD2 /* libPods-Demo.a */; };
 		4F0BDC221D47510A00E032BC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BDC211D47510A00E032BC /* UIView+Extension.m */; };
-		4F0BDC2D1D47579400E032BC /* YHPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BDC281D47579400E032BC /* YHPAccount.m */; };
-		4F0BDC2E1D47579400E032BC /* YHPAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BDC2A1D47579400E032BC /* YHPAccountTool.m */; };
-		4F0BDC2F1D47579400E032BC /* YHPGuideAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BDC2C1D47579400E032BC /* YHPGuideAccount.m */; };
 		4F45D1AD1D45C275005CF256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F45D1AC1D45C275005CF256 /* main.m */; };
 		4F45D1B01D45C275005CF256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F45D1AF1D45C275005CF256 /* AppDelegate.m */; };
 		4F45D1C61D45C275005CF256 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F45D1C51D45C275005CF256 /* DemoTests.m */; };
@@ -44,11 +47,8 @@
 		4FBB71191D47476D00B4B122 /* YHPNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB71181D47476D00B4B122 /* YHPNewsViewController.m */; };
 		4FBB711C1D47478000B4B122 /* YHPDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB711B1D47478000B4B122 /* YHPDiscoverViewController.m */; };
 		4FBB711F1D47478D00B4B122 /* YHPMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB711E1D47478D00B4B122 /* YHPMineViewController.m */; };
-		4FBB71341D47484D00B4B122 /* YHPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB71331D47484D00B4B122 /* YHPBaseViewController.m */; };
 		4FFDEB991D48AF3B0041CC49 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEB971D48AF3B0041CC49 /* MBProgressHUD+NJ.m */; };
 		4FFDEB9A1D48AF3B0041CC49 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FFDEB981D48AF3B0041CC49 /* MBProgressHUD.bundle */; };
-		4FFDEBA01D48B26D0041CC49 /* YHPGetPhoneReturnNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEB9F1D48B26D0041CC49 /* YHPGetPhoneReturnNumber.m */; };
-		4FFDEBA31D48B2A60041CC49 /* YHPBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEBA21D48B2A60041CC49 /* YHPBaseViewModel.m */; };
 		4FFDEBC81D48C22E0041CC49 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEBB81D48C22E0041CC49 /* MJConst.m */; };
 		4FFDEBC91D48C22E0041CC49 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEBBB1D48C22E0041CC49 /* MJFoundation.m */; };
 		4FFDEBCA1D48C22E0041CC49 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEBBD1D48C22E0041CC49 /* MJProperty.m */; };
@@ -95,6 +95,18 @@
 /* Begin PBXFileReference section */
 		0C3EE6C286C8EEB9DEF6AE40 /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTests/Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		161743F64E35B871021B37F5 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		1B06FDFC1D6728FF004FDA7D /* YHPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPBaseViewController.h; sourceTree = "<group>"; };
+		1B06FDFD1D6728FF004FDA7D /* YHPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPBaseViewController.m; sourceTree = "<group>"; };
+		1B06FDFF1D6728FF004FDA7D /* YHPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPAccount.h; sourceTree = "<group>"; };
+		1B06FE001D6728FF004FDA7D /* YHPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPAccount.m; sourceTree = "<group>"; };
+		1B06FE011D6728FF004FDA7D /* YHPAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPAccountTool.h; sourceTree = "<group>"; };
+		1B06FE021D6728FF004FDA7D /* YHPAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPAccountTool.m; sourceTree = "<group>"; };
+		1B06FE031D6728FF004FDA7D /* YHPBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPBaseViewModel.h; sourceTree = "<group>"; };
+		1B06FE041D6728FF004FDA7D /* YHPBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPBaseViewModel.m; sourceTree = "<group>"; };
+		1B06FE051D6728FF004FDA7D /* YHPGetPhoneReturnNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPGetPhoneReturnNumber.h; sourceTree = "<group>"; };
+		1B06FE061D6728FF004FDA7D /* YHPGetPhoneReturnNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPGetPhoneReturnNumber.m; sourceTree = "<group>"; };
+		1B06FE071D6728FF004FDA7D /* YHPGuideAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPGuideAccount.h; sourceTree = "<group>"; };
+		1B06FE081D6728FF004FDA7D /* YHPGuideAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPGuideAccount.m; sourceTree = "<group>"; };
 		1B47D3D51D60567E00544408 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 		1BB1FC4E1D600D4D008D21E1 /* YHPMapBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPMapBoxViewController.h; sourceTree = "<group>"; };
 		1BB1FC4F1D600D4D008D21E1 /* YHPMapBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPMapBoxViewController.m; sourceTree = "<group>"; };
@@ -107,12 +119,6 @@
 		41A2AD08B3AD336498196F46 /* libPods-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0BDC201D47510A00E032BC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		4F0BDC211D47510A00E032BC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		4F0BDC271D47579400E032BC /* YHPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPAccount.h; sourceTree = "<group>"; };
-		4F0BDC281D47579400E032BC /* YHPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPAccount.m; sourceTree = "<group>"; };
-		4F0BDC291D47579400E032BC /* YHPAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPAccountTool.h; sourceTree = "<group>"; };
-		4F0BDC2A1D47579400E032BC /* YHPAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPAccountTool.m; sourceTree = "<group>"; };
-		4F0BDC2B1D47579400E032BC /* YHPGuideAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPGuideAccount.h; sourceTree = "<group>"; };
-		4F0BDC2C1D47579400E032BC /* YHPGuideAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPGuideAccount.m; sourceTree = "<group>"; };
 		4F45D1A81D45C275005CF256 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F45D1AC1D45C275005CF256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F45D1AE1D45C275005CF256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -178,15 +184,9 @@
 		4FBB71281D4747F500B4B122 /* StringMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringMacros.h; sourceTree = "<group>"; };
 		4FBB71291D4747F500B4B122 /* UserBehaviorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBehaviorMacros.h; sourceTree = "<group>"; };
 		4FBB712A1D4747F500B4B122 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
-		4FBB71321D47484D00B4B122 /* YHPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPBaseViewController.h; sourceTree = "<group>"; };
-		4FBB71331D47484D00B4B122 /* YHPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPBaseViewController.m; sourceTree = "<group>"; };
 		4FFDEB961D48AF3B0041CC49 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
 		4FFDEB971D48AF3B0041CC49 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
 		4FFDEB981D48AF3B0041CC49 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		4FFDEB9E1D48B26D0041CC49 /* YHPGetPhoneReturnNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPGetPhoneReturnNumber.h; sourceTree = "<group>"; };
-		4FFDEB9F1D48B26D0041CC49 /* YHPGetPhoneReturnNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPGetPhoneReturnNumber.m; sourceTree = "<group>"; };
-		4FFDEBA11D48B2A60041CC49 /* YHPBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHPBaseViewModel.h; sourceTree = "<group>"; };
-		4FFDEBA21D48B2A60041CC49 /* YHPBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHPBaseViewModel.m; sourceTree = "<group>"; };
 		4FFDEBB71D48C22E0041CC49 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
 		4FFDEBB81D48C22E0041CC49 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
 		4FFDEBB91D48C22E0041CC49 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
@@ -242,6 +242,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B06FDFA1D6728FF004FDA7D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				1B06FDFB1D6728FF004FDA7D /* Controller */,
+				1B06FDFE1D6728FF004FDA7D /* Model */,
+				1B06FE091D6728FF004FDA7D /* View */,
+				1B06FE0A1D6728FF004FDA7D /* ViewModel */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		1B06FDFB1D6728FF004FDA7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B06FDFC1D6728FF004FDA7D /* YHPBaseViewController.h */,
+				1B06FDFD1D6728FF004FDA7D /* YHPBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B06FDFE1D6728FF004FDA7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B06FDFF1D6728FF004FDA7D /* YHPAccount.h */,
+				1B06FE001D6728FF004FDA7D /* YHPAccount.m */,
+				1B06FE011D6728FF004FDA7D /* YHPAccountTool.h */,
+				1B06FE021D6728FF004FDA7D /* YHPAccountTool.m */,
+				1B06FE031D6728FF004FDA7D /* YHPBaseViewModel.h */,
+				1B06FE041D6728FF004FDA7D /* YHPBaseViewModel.m */,
+				1B06FE051D6728FF004FDA7D /* YHPGetPhoneReturnNumber.h */,
+				1B06FE061D6728FF004FDA7D /* YHPGetPhoneReturnNumber.m */,
+				1B06FE071D6728FF004FDA7D /* YHPGuideAccount.h */,
+				1B06FE081D6728FF004FDA7D /* YHPGuideAccount.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B06FE091D6728FF004FDA7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B06FE0A1D6728FF004FDA7D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1B97B4491D5F1F84005F972A /* MapBox */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,19 +324,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		4F0BDC261D47579400E032BC /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				4F0BDC271D47579400E032BC /* YHPAccount.h */,
-				4F0BDC281D47579400E032BC /* YHPAccount.m */,
-				4F0BDC291D47579400E032BC /* YHPAccountTool.h */,
-				4F0BDC2A1D47579400E032BC /* YHPAccountTool.m */,
-				4F0BDC2B1D47579400E032BC /* YHPGuideAccount.h */,
-				4F0BDC2C1D47579400E032BC /* YHPGuideAccount.m */,
-			);
-			path = Account;
 			sourceTree = "<group>";
 		};
 		4F45D19F1D45C275005CF256 = {
@@ -354,6 +392,8 @@
 		4F45D1F11D45C549005CF256 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1B06FDFA1D6728FF004FDA7D /* Account */,
+				4F9F86DA1D49A19D0017873E /* Login */,
 				4F45D1FC1D45C549005CF256 /* Home */,
 				4F45D2061D45C549005CF256 /* News */,
 				4F45D1F21D45C549005CF256 /* Add */,
@@ -578,7 +618,7 @@
 				4F9F86F41D49A19D0017873E /* ViewModel */,
 			);
 			name = Login;
-			path = ../Mine/Login;
+			path = Mine/Login;
 			sourceTree = "<group>";
 		};
 		4F9F86DB1D49A19D0017873E /* Controller */ = {
@@ -675,49 +715,9 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-		4FBB712B1D47481F00B4B122 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4FBB71321D47484D00B4B122 /* YHPBaseViewController.h */,
-				4FBB71331D47484D00B4B122 /* YHPBaseViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		4FBB712E1D47481F00B4B122 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4FFDEBA11D48B2A60041CC49 /* YHPBaseViewModel.h */,
-				4FFDEBA21D48B2A60041CC49 /* YHPBaseViewModel.m */,
-				4FFDEB9E1D48B26D0041CC49 /* YHPGetPhoneReturnNumber.h */,
-				4FFDEB9F1D48B26D0041CC49 /* YHPGetPhoneReturnNumber.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		4FBB712F1D47481F00B4B122 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4FBB71301D47481F00B4B122 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		4FCD0FCD1D45ED7400C341FC /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				4F9F86DA1D49A19D0017873E /* Login */,
-				4F0BDC261D47579400E032BC /* Account */,
-				4FBB712B1D47481F00B4B122 /* Controller */,
-				4FBB712E1D47481F00B4B122 /* Model */,
-				4FBB712F1D47481F00B4B122 /* View */,
-				4FBB71301D47481F00B4B122 /* ViewModel */,
 				4FBB71201D4747F500B4B122 /* Macros */,
 			);
 			path = Public;
@@ -851,6 +851,7 @@
 				4F45D1C91D45C275005CF256 /* Frameworks */,
 				4F45D1CA1D45C275005CF256 /* Resources */,
 				0DC025283BB47E70153E5A62 /* [CP] Copy Pods Resources */,
+				FBDB4D82059D48B46D03A9F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -990,7 +991,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6AA777772F64E7D87A93A05C /* [CP] Check Pods Manifest.lock */ = {
@@ -1005,7 +1006,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7675C6A207352AD4F601FF12 /* [CP] Check Pods Manifest.lock */ = {
@@ -1020,7 +1021,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		96DA04101B0016B32A16A38C /* [CP] Copy Pods Resources */ = {
@@ -1068,6 +1069,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FBDB4D82059D48B46D03A9F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoUITests/Pods-DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1076,11 +1092,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9F86FD1D49A19D0017873E /* YHPLoginAccountParameter.m in Sources */,
-				4F0BDC2E1D47579400E032BC /* YHPAccountTool.m in Sources */,
+				1B06FE0B1D6728FF004FDA7D /* YHPBaseViewController.m in Sources */,
 				4F9F86FB1D49A19D0017873E /* YHPRegistNameViewController.m in Sources */,
 				1BB1FC501D600D4D008D21E1 /* YHPMapBoxViewController.m in Sources */,
 				4F45D20D1D45C581005CF256 /* YHPHomeViewController.m in Sources */,
-				4FBB71341D47484D00B4B122 /* YHPBaseViewController.m in Sources */,
+				1B06FE0E1D6728FF004FDA7D /* YHPBaseViewModel.m in Sources */,
+				1B06FE0C1D6728FF004FDA7D /* YHPAccount.m in Sources */,
 				4F9F87021D49A19D0017873E /* YHPGetPhoneReturnNumberViewModel.m in Sources */,
 				4FBB711F1D47478D00B4B122 /* YHPMineViewController.m in Sources */,
 				4F0BDC221D47510A00E032BC /* UIView+Extension.m in Sources */,
@@ -1093,20 +1110,19 @@
 				4FFDEBCF1D48C22E0041CC49 /* NSString+MJExtension.m in Sources */,
 				4F9F86FE1D49A19D0017873E /* YHPRegisterGetPhoneNumerParamter.m in Sources */,
 				4F9F87101D49B2FC0017873E /* NSDateFormatter+Category.m in Sources */,
-				4FFDEBA01D48B26D0041CC49 /* YHPGetPhoneReturnNumber.m in Sources */,
 				4F9F87001D49A19D0017873E /* YHPRegisterTool.m in Sources */,
 				4FFDEBCD1D48C22E0041CC49 /* NSObject+MJKeyValue.m in Sources */,
 				4FFDEBCB1D48C22E0041CC49 /* MJType.m in Sources */,
 				4FFDEBC91D48C22E0041CC49 /* MJFoundation.m in Sources */,
-				4F0BDC2F1D47579400E032BC /* YHPGuideAccount.m in Sources */,
 				4F9F86F71D49A19D0017873E /* YHPGuideViewController.m in Sources */,
+				1B06FE101D6728FF004FDA7D /* YHPGuideAccount.m in Sources */,
 				4FFDEBC81D48C22E0041CC49 /* MJConst.m in Sources */,
 				4F9F86F91D49A19D0017873E /* YHPStartViewController.m in Sources */,
 				4F9F86F81D49A19D0017873E /* YHPLoginViewController.m in Sources */,
-				4FFDEBA31D48B2A60041CC49 /* YHPBaseViewModel.m in Sources */,
-				4F0BDC2D1D47579400E032BC /* YHPAccount.m in Sources */,
+				1B06FE0D1D6728FF004FDA7D /* YHPAccountTool.m in Sources */,
 				4F9F870C1D49B2C00017873E /* ZXHMultiLineLabel.m in Sources */,
 				4FFDEBCC1D48C22E0041CC49 /* NSObject+MJCoding.m in Sources */,
+				1B06FE0F1D6728FF004FDA7D /* YHPGetPhoneReturnNumber.m in Sources */,
 				4FBB711C1D47478000B4B122 /* YHPDiscoverViewController.m in Sources */,
 				4F9F86FF1D49A19D0017873E /* YHPRegisterGetPhoneNumerResult.m in Sources */,
 				4F45D1AD1D45C275005CF256 /* main.m in Sources */,
